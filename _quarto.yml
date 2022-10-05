@@ -1,3 +1,21 @@
 project:
   type: website
-  # output-dir: docs
+
+website:
+  title: "acteng"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: https://acteng.github.io/atip/
+        text: ATIP
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
